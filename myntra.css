@@ -1,0 +1,245 @@
+header{
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 4px 12px 0 black;
+    background-color:#fff;
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 80px;
+    height: 60px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    height: 60px;
+    margin: 0 auto;
+}
+.nav-left, .nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-left ul li{
+    list-style: none;
+    display: flex;
+    margin: 0 25px;
+    float: left;
+}   
+.nav-left a{
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: rgba(20, 20, 20, 0.808);
+    text-decoration: none;
+}
+.nav-left a:hover{
+    border-bottom: 5px solid rgb(215, 25, 95);
+}
+.search-bar{
+    width: 450px;
+    line-height: 50px;
+    border-radius: 5px;
+    background-color: rgb(232, 231, 231);
+}
+.search-bar input{
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    width: 80%;
+    font-size: 14px;
+    padding: 10px;
+}
+.search-bar i{
+    font-size: 15px;
+    color: #7d7979;
+    margin-left: -20px;
+}
+.studio{
+    position: relative;
+}
+.studio span{
+    position:absolute;
+    color: red;
+    top: -5px;
+    left: 50px;
+    font-size: 14px;
+}
+.nav-right div{
+    margin: 0 15px;
+    text-align: center;
+}
+.nav-right div p{
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: #7d7979;
+}
+.nav-right div i{
+    font-size: 20px;
+    margin-top: 10px;
+}
+/* main section */
+
+.banner-img{
+    width: 1000px;
+    height: 350px;
+    margin-top: 50px;
+
+}
+.banner{
+    float: left;
+    display:flex;
+}
+.banner2{
+    width:800px;
+    display:flex;
+    align-items: left;
+}
+.banner-heading{
+    width:650px;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+.banner-heading h2{
+    margin-top: 30px;
+    font-family:serif;
+    font-size: 40px;
+}
+.banner-heading .txt{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 35px;
+}
+hr{
+    color: rgb(199, 193, 193);
+}
+.txt2{
+    font-size: 15px;
+    color:lightgray;
+}
+
+/* MEDAL WORTHY BRANDS TO BAG */
+
+.medal{
+    font-size:20px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* padding-bottom: 50px;
+    padding-top: 40px; */
+}
+.shop-brand{
+    display: flex;
+    align-items: center;
+}
+.image{
+    background-color: #fff;
+    overflow: hidden;
+    text-align: center;
+}
+.image img {
+    width: 300px;
+    height: 300px;
+}
+.image h3 {
+    font-size: 16px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+.image p {
+    font-size: 14px;
+    color: #333;
+    margin: 5px 0;
+}
+.image p.offer {
+    font-weight: bold;
+}
+
+/* Grand Global Brands */
+
+.global{
+    font-size:20px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* padding-bottom: 100px; */
+}
+
+.brands{
+    display: flex;
+    align-items: center;
+}
+.item{
+    background-color: #fff;
+    overflow: hidden;
+    text-align: center;
+}
+.item img {
+    width: 300px;
+    height: 300px;
+}
+.item h3 {
+    font-size: 16px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+.item p {
+    font-size: 14px;
+    color: #333;
+    margin: 5px 0;
+}
+.item p.offer {
+    font-weight: bold;
+}
+
+/* shop by category */
+
+.shop-category{
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    padding-bottom: 40px;
+
+}
+.shop-category img{
+    width: 100%;
+    height: 1400px;
+
+}
+
+/* Footer */
+
+footer{
+    height: 700px;
+    background-color:rgb(246, 245, 245);
+    color: #7d7979;
+    padding-left: 100px;
+    padding-right: 200px;
+    padding-top: 40px;
+}
+footer i{
+    font-size: 27px;
+}
+footer .top{
+    display: flex;
+    gap: 100px;
+    /* justify-content: space-around; */
+    
+}
+footer .buttom{
+    display: block;
+    margin-top: 200px;
+}
+.original{
+    height: 130px;
+    width: 230px;
+}
+footer li{
+    list-style-type:none;    
+}
+footer ul{
+    /* align:right; */
+    align-items: left;
+}
+hr{
+    color: #7d7979;
+}
